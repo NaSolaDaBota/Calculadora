@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgb(82, 4, 4), rgb(28, 7, 104));
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    background-color: black;
+    box-shadow: 0 10px 10px 0 rgb(82, 3, 3);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#Resultado {
+    background-color: #fff;
+    width: 310px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+}
+
+.zero{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    width: 165px;
+}
+
+.igual {
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+    height: 160px;
+}
+
+.botao:hover {
+    background-color: rgb(82, 3, 3);
+}
